@@ -1,0 +1,31 @@
+{
+  "name": "starcraft-bot",
+  "version": "1.0.0",
+  "description": "Bot for Starcraft II game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "build": "pkg ./ --target win-x64 --out-path ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan783/starcraft-bot.git"
+  },
+  "keywords": [
+    "Startcraft",
+    "Bot"
+  ],
+  "author": "Dan Kurta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dan783/starcraft-bot/issues"
+  },
+  "homepage": "https://github.com/Dan783/starcraft-bot#readme",
+  "dependencies": {
+    "@node-sc2/core": "^0.8.2"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.7"
+  }
+}
